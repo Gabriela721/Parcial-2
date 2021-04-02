@@ -1,0 +1,42 @@
+nav{
+    background: rgb(12, 12, 12);
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    
+}
+.contenedor{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logotipo{
+    height: 80px;
+}
+
+.Enlaces{
+    padding: 0 100px;
+    height: 100%;
+    display: flex;
+}
+.Enlaces a{
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Enlaces a:hover{
+    color: gold;
+    transition: ease-in-out .15s;
+}
+
+

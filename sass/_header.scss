@@ -1,0 +1,30 @@
+.Padre{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/Fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-attachment: fixed;
+    display: flex;
+    
+}
+
+.Padre .Titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.Padre .Titulo h1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 5rem;
+        color: rgb(252, 188, 26);
+        text-transform: uppercase;
+        text-align: center;
+            
+}
+
+

@@ -1,0 +1,96 @@
+.galeria{
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        color: cadetblue;
+        margin-bottom: 10rem;
+    }
+    body{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grupo{
+        width: 100%;
+        max-width: 1100px;
+        box-sizing: border-box;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+        .caja-imagen{
+            overflow: hidden;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: .5rem;
+            cursor: pointer;
+            img{
+                height: 100%;
+                transition: ease-in-out .25s;
+                &:hover{
+                    height: 110%;
+                }
+            }
+
+            
+        }
+
+    }
+}
+
+.lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0, .9);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    display: none;
+    transition: case-in-out .25s;
+    #exit{
+        position: absolute;
+        right: 4rem;
+        top: 4rem;
+        color: white;
+        font-size: 1.5rem;
+        opacity: .75;
+        cursor: pointer;
+        padding: 1.5rem;
+        transition: ease-in-out .15s;
+        &:hover{
+            opacity: 1;
+
+        }
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+        opacity: 0;
+        transition: ease-in-out .25s;
+        img{
+            margin-bottom: 2rem;
+            border-radius: 1rem;
+            box-shadow: .5rem .5rem .2rem rgba(0,0,0, .85);
+            max-height: 900px;
+            max-width: 900px;
+
+        }
+        span{
+            color: white;
+        }
+    }
+}

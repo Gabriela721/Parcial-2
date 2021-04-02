@@ -1,0 +1,29 @@
+.Madre{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/Fondo\ personajes.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+}
+
+.Madre .titulo2{
+    display: flex;
+    background-color: rgba(80, 80, 80, 0.411);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Madre .titulo2 h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 5rem;
+        color: rgb(255, 182, 24);
+        text-transform: uppercase;
+        text-align: center;
+}
